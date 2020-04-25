@@ -22,8 +22,11 @@ body {
   list-style: none;
 }
 
+.navigation-bar {
+  padding-top: 26px;
+}
+
 .navigation {
-  min-height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,23 +74,17 @@ body {
 }
 /* MAIN */
 
+.service-box {
+  padding-top: 128px;
+  padding-bottom: 100px;
+}
+
 .header-service-box {
-  min-height: 270px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+  text-align: center;
 }
 
-.first-head-box {
-  margin: 0;
-  font-size: 24px;
-  font-family: "Kaushan Script";
-  color: #333333;
-  padding-bottom: 24px;
-}
-
-.second-head-box {
+.headers {
+  text-align: center;
   margin: 0;
   font-family: "Montserrat";
   font-weight: 700;
@@ -95,7 +92,18 @@ body {
   text-transform: uppercase;
   color: #333333;
 }
-.second-head-box::after {
+
+.decoration-title {
+  text-transform: none;
+  text-align: center;
+  display: block;
+  font-size: 24px;
+  font-family: "Kaushan Script";
+  color: #333333;
+  margin-bottom: 24px;
+}
+
+.headers::after {
   content: "";
   display: block;
   width: 60px;
@@ -117,10 +125,6 @@ body {
   margin-bottom: 0;
 }
 
-.services {
-  padding-bottom: 100px;
-}
-
 .services-icon {
   min-width: 100px;
   display: block;
@@ -139,7 +143,7 @@ body {
   text-transform: uppercase;
   margin: 0;
   font-weight: 400;
-  padding-bottom: 14px;
+  margin-bottom: 14px;
 }
 .content-service {
   font-family: "Roboto";
@@ -149,17 +153,12 @@ body {
   margin: 0;
 }
 /* TEAM BOX */
-.team-list {
-  min-height: 625px;
+.team-box {
+  padding-bottom: 82px;
 }
-.team-box-header {
-  min-height: 350px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .team-box-text {
-  margin: 0;
+  margin: 0 auto;
   font-size: 15px;
   line-height: 24px;
   font-family: "Roboto";
@@ -167,6 +166,7 @@ body {
   color: #999999;
   text-align: center;
   width: 980px;
+  margin-bottom: 90px;
 }
 .team-navigation {
   list-style: none;
@@ -238,7 +238,7 @@ body {
   text-transform: uppercase;
   color: #999999;
   text-align: center;
-  padding-top: 24px;
+  margin-bottom: 14px;
 }
 .position-item {
   margin: 0;
@@ -248,13 +248,13 @@ body {
   line-height: 24px;
   color: #999999;
   text-align: center;
-  padding-top: 10px;
 }
 .hover-red:hover {
   color: #f6a1a1;
   cursor: pointer;
 }
 .img {
+  margin-bottom: 30px;
   transition: all 200ms linear;
 }
 
