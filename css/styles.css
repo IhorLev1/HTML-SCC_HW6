@@ -261,7 +261,7 @@ body {
 /* FOOTER */
 .footer-box {
   border-top: 1px solid #e5e5e5;
-  min-height: 64px;
+  padding: 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -300,7 +300,6 @@ input[type="submit"] {
   height: 40px;
   padding: 0;
   background: var(--main);
-  border: none;
   color: #fff;
   text-transform: uppercase;
   font-family: "Montserrat", serif;
