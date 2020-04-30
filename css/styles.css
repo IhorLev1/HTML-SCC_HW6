@@ -206,22 +206,26 @@ body {
   display: block;
   position: absolute;
   top: 0;
-  width: 380px;
-  height: 470px;
+  width: 100%;
+  height: 100%;
   opacity: 0;
   z-index: 0;
 }
 
 .buttons {
+  display: block;
+  box-sizing: border-box;
   padding: 0;
   border: 1px solid;
   border-color: #f39f8d;
   width: 56px;
   height: 56px;
+  padding-top: 14px;
   text-align: center;
   background-color: #fce38a;
   transition: all 300ms linear;
 }
+
 .hover-buttons {
   display: flex;
   position: absolute;
@@ -287,12 +291,11 @@ body {
   cursor: pointer;
 }
 .img {
+  display: block;
   transition: all 200ms linear;
 }
 
 .img-box {
-  width: 380px;
-  height: 470px;
   position: relative;
   margin-bottom: 32px;
 }
